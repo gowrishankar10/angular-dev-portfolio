@@ -51,6 +51,25 @@
               ],
               "outputHashing": "all"
             },
+            "github-pages": {
+              "baseHref": "/angular-dev-portfolio/",
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "8kB",
+                  "maximumError": "16kB"
+                }
+              ],
+              "outputHashing": "all",
+              "optimization": true,
+              "outputMode": "static",
+              "prerender": true
+            },
             "development": {
               "optimization": false,
               "extractLicenses": false,
